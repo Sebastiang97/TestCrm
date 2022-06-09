@@ -1,0 +1,62 @@
+.listsMessage {
+  background-color: #2b2e43;
+  height: 100%;
+  width: 70px;
+  position: absolute;
+  right: 0;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.contentLine {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.line {
+  position: relative;
+  height: 300px;
+  border-radius: 5px;
+  border-left: 4px solid #fff;
+  margin: 0 10px 0 0;
+}
+
+.contain {
+  height: 100%;
+  margin-top: 20px;
+}
+
+.chat {
+  font-size: 8px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 15px 0;
+  background-color: #464858;
+}
+
+.header {
+  position: relative;
+  text-align: end;
+  padding-right: 2px;
+  background-color: #9699b4;
+  border-radius: 10px 10px 0 0;
+}
+
+.header .icon {
+  color: #38bc4b;
+  position: absolute;
+  font-size: 10px;
+}
+
+.name {
+  padding: 2px 5px;
+  text-transform: lowercase;
+  text-align: start;
+}
+
+.name::first-letter {
+  text-transform: uppercase;
+}

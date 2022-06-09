@@ -1,0 +1,55 @@
+.listPlayers {
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px 0;
+  border-radius: 10px;
+  /* overflow-y: scroll; */
+}
+
+.listPlayers .h4 {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.list-group-item,
+.list-group-item:hover {
+  height: 30px;
+  color: #000;
+  border-radius: 0px;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #ecf3fd;
+}
+
+.list-group-item:nth-child(even) {
+  background-color: #fff;
+}
+
+.list-group-item:nth-child(5n + 1) {
+  border-left: 4px solid #af81f6;
+}
+.list-group-item:nth-child(5n + 2) {
+  border-left: 4px solid #027b92;
+}
+.list-group-item:nth-child(5n + 3) {
+  border-left: 4px solid #b24592;
+}
+.list-group-item:nth-child(5n + 4) {
+  border-left: 4px solid #ab85f6;
+}
+
+.list-group-item:nth-child(5n + 5) {
+  border-left: 4px solid #b8478f;
+}
+
+.callsPlayer {
+  display: flex;
+  justify-content: center;
+}
+
+.iconsPlayer {
+  display: flex;
+  justify-content: flex-end;
+}

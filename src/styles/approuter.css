@@ -1,0 +1,14 @@
+.col {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.contenido {
+  background-color: #f5f8fa;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  position: absolute;
+  margin: auto;
+  right: 10px;
+}

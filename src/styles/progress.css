@@ -1,0 +1,39 @@
+.cont {
+  height: 150px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2px 15px;
+  display: flex;
+  place-items: center;
+}
+.circular-progress {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.circular-progress:before {
+  content: '';
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.value-cont {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #231c3d;
+}
+
+.contentsProgress {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px 5px;
+  background-color: #fff;
+}
